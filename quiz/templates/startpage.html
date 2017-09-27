@@ -29,7 +29,9 @@ Your browser does not support the video tag.
 <h4>Ta quizzet så får du veta</h4>
 
 {% for quiz in quizzes %}
-	<p>{{ quiz.name }}</p>
+	<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
+	{{ quiz.name }}
+</a></p>
 {% endfor %}
 
 <div class="container-button">
