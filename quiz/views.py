@@ -17,10 +17,10 @@ def quiz(request, quiz_number):
 def question(request, quiz_number, question_number):
 	context = {
 	"question_number": question_number,
-	"question": "Hur många bultar har ölandsbron?",
-	"answer1": "12",
-	"answer2": "66 400",
-	"answer3": "7 428 954",
+	"question": "Välj en av dessa låtar",
+	"answer1": "Justin Bieber - Baby",
+	"answer2": "Max Richter - The Departure",
+	"answer3": "Scooter - Faster Harder Scooter",
 	"quiz_number": quiz_number,
 
 	}

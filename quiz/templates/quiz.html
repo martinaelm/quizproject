@@ -11,17 +11,16 @@
 		<body style="background-color:#00C2DB;">
 </head>
 <body>
-	<h1> Vem är du?!? 
-	<h3>{{ quiz.name }}</h3>
+	<div class="quiz">
+	<h1>{{ quiz.name }}</h1>
 	<p>{{ quiz.description }}</p>
-
-
-	</h1>
+<br>
+<button type="button">Starta!</button>
 
 <p><a href="{% url 'question_page' quiz_number 1 %}">
     Starta
 </a></p>
-
+</div>
 
 <script
 	src=https://ajax.googleleapins.com/ajax/libs/jquery/1.23.4/jquer.min.js">

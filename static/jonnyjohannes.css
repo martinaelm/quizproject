@@ -3,57 +3,105 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: SourceSansPro-Bold;
-	font-size: 40pt;
-	margin: 0px;
+	margin: 0px
+  font-size: 10vw;
 }
 
 video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+position:absolute;
+left:0;
+top:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+z-index:1; 
+margin:auto;
 }
 
-.container-button {
-  position: absolute;
-  top:50%;
-  left:50%;
-  margin-left: -65px;
-  margin-top: -20px;
-  width: 130px;
-  height: 40px;
-  text-align: center;
-}
-
-button {
-  outline:none;
-  height: 40px;
-  text-align: center;
-  width: 130px;
-  border-radius:40px;
-  background: #fff;
-  border: 2px solid $green;
-  color:$green;
-  letter-spacing:1px;
-  text-shadow:0;
-  font:{
-    size:12px;
-    weight:bold;
-  }
-
-  h1 {
-  	font-size: 40px;
+h1 {
   	text-align: center;
+    font-size: 40px;
   }
 
-  	.center {
-	position: absolute;
-	top: 50%;
-    width: 100%;
-    text-align: center;
+
+button { 
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 70px;
+    height: 70px;
+    border-radius: 40px;
+    padding: 0 2em;
+    width: auto;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+  }
+
+.containermartina {
+      position: relative;
+    }
+
+.textstart {
+position:absolute;
+left:0;
+top:0;
+right:0;
+bottom:0;
+width:200px;
+height:50px;
+z-index:2; 
+margin:auto;
 	}
 
-	.containermartina {
-    	position: relative;
-		}
 
+.quiz {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20%;  
+}
 
+.quiz h1 {
+margin-bottom: 25px;
+}
+
+.quiz p {
+  font-size: 20;
+  font-family: SourceSansPro-Regular;
+}
+
+.question {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20%;
+}
+
+  .question h1 {
+  margin-bottom: 25px;
+}
+
+  
+  .question label {
+    font-size: 20;
+    font-family: SourceSansPro-Regular;
+  }
+
+  input[type=radio]{
+    margin-right: 10px;
+}
+
+.completed {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.completed h1 {
+  font-size: 50px;
+}
+
+.completed h2 {
+  font-family: SourceSansPro-Regular;
+}

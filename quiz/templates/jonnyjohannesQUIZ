@@ -8,33 +8,10 @@
 		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/static/jonnyjohannes.css" Rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<style>
-
-	</style>
-
-	</head>
-		<body>
-		<div class="containermartina">
-		
-		<div class="video">
-		<video loop autoplay>
-  		<source src="/static/out2.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video>
-	</div>
-
-		<div class="textstart"> 
-		<h1>Vem av Jonny och Johannes är du mest lik?</h1>
-		<p>Gör quizzet så får du veta!</p>
-
-		<button type="button">Starta!</button>
-		{% for quiz in quizzes %}
-		<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
-		{{ quiz.name }}
-		</a></p>
-		{% endfor %}
-	</div>
-</div>
+		<body style="background-color:#00C2DB;">
+</head>
+<body>
+	<h1> Vem är du?!? </h1>
 
 
 <script
