@@ -28,6 +28,10 @@ Your browser does not support the video tag.
 <h1>Vem av Jonny och Johannes känner du bäst?</h1>
 <h4>Ta quizzet så får du veta</h4>
 
+{% for quiz in quizzes %}
+	<p>{{ quiz.name }}</p>
+{% endfor %}
+
 <div class="container-button">
   <button id="button"></button>
 
