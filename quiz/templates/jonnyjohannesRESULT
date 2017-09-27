@@ -12,7 +12,6 @@
 </head>
 <body>
 	<h1> Vem är du?!? </h1>
-	<h1>Du är klar och fick {{ correct }} av {{ total }}</h1>
 
 
 <script

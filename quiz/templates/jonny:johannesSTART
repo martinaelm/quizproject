@@ -8,13 +8,38 @@
 		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/static/jonnyjohannes.css" Rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<body style="background-color:#00C2DB;">
-</head>
+		<style>
+
+	</style>
+
+	</head>
 <body>
-	<h1> Vem är du?!? </h1>
-	<h1>Du är klar och fick {{ correct }} av {{ total }}</h1>
 
+<div class="containermartina">
+<video loop autoplay>
+  <source src="/static/out2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="center">
 
+<div class="container-button">
+  <button id="button"></button>
+
+<h1>Vem av Jonny och Johannes känner du bäst?</h1>
+<h4>Ta quizzet så får du veta</h4>
+
+<div class="container-button">
+  <button id="button"></button>
+
+</div>
+
+</div>
+</div>
+
+<h1>Vem av Jonny och Johannes känner du bäst?</h1>
+<h4>Ta quizzet så får du veta</h4>
+
+<br>
 <script
 	src=https://ajax.googleleapins.com/ajax/libs/jquery/1.23.4/jquer.min.js">
 	</script>
