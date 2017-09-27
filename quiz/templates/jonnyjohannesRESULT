@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" Content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<tite></tite>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="jonnyjohannes.css" Rel="stylesheet">
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/jonnyjohannes.css" Rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<body style="background-color:#00C2DB;">
 </head>
