@@ -16,12 +16,16 @@ def quiz(request, quiz_number):
 	return render(request, "quiz.html", context)
 
 def question(request, quiz_number, question_number):
+	quiz = Quiz.objects.get(quiz_number=quiz_number)
+	questions = quiz.questions.all()
+	question = questions[question_number - 1]
 	context = {
 	"question_number": question_number,
-	"question": "Välj en av dessa låtar",
-	"answer1": "Justin Bieber - Baby",
-	"answer2": "Max Richter - The Departure",
-	"answer3": "Scooter - Faster Harder Scooter",
+	"question": question.question,
+	"answer1": question.answer1,
+	"answer2": question.answer2,
+	"answer3": question.answer3,
+	"quiz": quiz,
 	"quiz_number": quiz_number,
 
 	}
