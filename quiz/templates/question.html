@@ -14,19 +14,17 @@
 <body>
 	<div class="question">
 		<h1>{{ question_number }}. {{ question }}</h1>
-	<form method=“get” action=“{% url 'completed_page' quiz_number %}“>
-	<label><input type="radio">{{ answer1 }}</label><br>
-	<label><input type=radio>{{ answer2 }}</label><br>
-	<label><input type=radio>{{ answer3 }}</label><br>
+	<form method="get" action="{% url 'completed_page' quiz_number %}">
+	{% csrf_token %}
+	<label><input type="radio" name="answer" value="1"> {{ answer1 }} </label><br>
+	<label><input type="radio" name="answer" value="2"> {{ answer2 }} </label><br>
+	<label><input type="radio" name="answer" value="3"> {{ answer3 }} </label><br>
 
-</form>
 
-<p><a href="{% url 'completed_page' quiz_number %}">
-    Nästa
-</a></p>
+
 <br>
 <br>
-<button type="button">Nästa!</button>
+<button type="submit">Nästa!</button>
 </form>
 </div>
 
