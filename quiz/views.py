@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def startpage(request):
 	context = {
-		"quizzes": quizzes,	
+		"quizzes": Quiz.objects.all(),	
 
 	}
 	return render(request, "startpage.html", context)
