@@ -84,18 +84,18 @@ margin-bottom: 25px;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20%;
-  font-family: SourceSansPro;
+  font-family: Source Sans Pro;
 }
 
   .question h1 {
   margin-bottom: 25px;
-  font-family: SourceSansPro;
+  font-family: Source Sans Pro;
 }
 
   
   .question label {
     font-size: 20pt;
-    font-family: SourceSansPro;
+    font-family: Source Sans Pro;
   }
 
 
@@ -136,7 +136,7 @@ input[type=radio]:checked {
 input[type=radio]:focus { outline: 0; }
 
 form {
-  font-family: SourceSansPro;
+  font-family: Source Sans Pro;
 }
 
 .completed {
@@ -150,7 +150,7 @@ form {
 }
 
 .completed h2 {
-  font-family: SourceSansPro;
+  font-family: Source Sans Pro;
 }
 
 .img-circle {
