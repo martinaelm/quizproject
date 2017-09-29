@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 
 body {
 	background-size: cover;
 	color: white;
-	font-family: /static/fonts/SourceSansPro-Bold;
+	font-family: Source Sans Pro Bold;
   font-size: 24px;
 }
 
@@ -51,7 +53,7 @@ margin-right: auto;
   font-size: 90px;
   top-margin: 25%;
   letter-spacing: -1px;
-  font-family: /static/fonts/SourceSansPro-Bold;
+  font-family: SourceSansPro-Bold;
   text-align: center;
   max-width: 700px;
   margin-left: auto;
@@ -72,7 +74,7 @@ margin-bottom: 25px;
 
 .quiz p {
   font-size: 20px;
-  font-family: /static/fonts/SourceSansPro-Regular;
+  font-family: SourceSansPro-Regular;
 }
 
 .question {
@@ -89,7 +91,7 @@ margin-bottom: 25px;
   
   .question label {
     font-size: 20pt;
-    font-family: /static/fonts/SourceSansPro-Regular;
+    font-family: SourceSansPro-Regular;
   }
 
 
@@ -142,7 +144,7 @@ input[type=radio]:focus { outline: 0; }
 }
 
 .completed h2 {
-  font-family: /static/fonts/SourceSansPro-Regular;
+  font-family: SourceSansPro-Regular;
 }
 
 .img-circle {
