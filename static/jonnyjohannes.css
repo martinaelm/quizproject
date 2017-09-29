@@ -4,7 +4,8 @@
 body {
 	background-size: cover;
 	color: white;
-	font-family: Source Sans Pro Bold;
+	font-family: Source Sans Pro;
+  font-weight: bold;
   font-size: 24px;
 }
 
@@ -53,7 +54,8 @@ margin-right: auto;
   font-size: 90px;
   top-margin: 25%;
   letter-spacing: -1px;
-  font-family: SourceSansPro-Bold;
+  font-family: Source Sans Pro;
+  font-weight: bold;
   text-align: center;
   max-width: 700px;
   margin-left: auto;
@@ -74,7 +76,7 @@ margin-bottom: 25px;
 
 .quiz p {
   font-size: 20px;
-  font-family: SourceSansPro-Regular;
+  font-family: Source Sans Pro;
 }
 
 .question {
@@ -91,7 +93,7 @@ margin-bottom: 25px;
   
   .question label {
     font-size: 20pt;
-    font-family: SourceSansPro-Regular;
+    font-family: SourceSansPro;
   }
 
 
@@ -144,7 +146,7 @@ input[type=radio]:focus { outline: 0; }
 }
 
 .completed h2 {
-  font-family: SourceSansPro-Regular;
+  font-family: SourceSansPro;
 }
 
 .img-circle {
