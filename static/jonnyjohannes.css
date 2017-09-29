@@ -96,6 +96,7 @@ margin-bottom: 25px;
   margin-bottom: 25px;
   font-family: Source Sans Pro;
   font-weight: 900;
+  letter-spacing: -1px;
 }
 
   
@@ -158,8 +159,9 @@ form {
 
 .completed h2 {
   font-family: Source Sans Pro;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 40px;
+  letter-spacing: -1px;
 
 }
 
