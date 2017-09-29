@@ -9,32 +9,44 @@
 		<link href="/static/jonnyjohannes.css" Rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<style>
-
+		background-image-opacity: 0.5;
 	</style>
-
 	</head>
-		<body>
-		<div class="containermartina">
+
+
+
+	<body>
+		<div class="backgroundimage">
 		
-		<div class="video">
-		<video loop autoplay>
-  		<source src="/static/out2.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video>
-	</div>
-
-		<div class="textstart"> 
-		<h1>Vem av Jonny och Johannes är du mest lik?</h1>
-		<p>Gör quizzet så får du veta!</p>
-
-		<button type="button">Starta!</button>
-		{% for quiz in quizzes %}
+		</div> 
+		<div class="textstart">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1> Vem på Confetti är du!?</h1>
+		<p>Johannes, Jonny eller Martina? Gör quizzet så får du veta!</p>
+		
+		<!-- {% for quiz in quizzes %}
 		<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
 		{{ quiz.name }}
 		</a></p>
-		{% endfor %}
+		{% endfor %} -->
+		<br>
+		<form method="get" action="/quiz/1/question/1">
+		<button type="submit">Starta!</button>
+		</form>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
 	</div>
-</div>
+
+
 
 
 <script

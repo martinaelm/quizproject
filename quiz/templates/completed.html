@@ -11,13 +11,18 @@
 		<body style="background-color:#00C2DB;">
 </head>
 <body>
-	<div class="completed">
-	<h1> 🌈 🎉 💕 🍾 😘</h1>
-	<h2>Du är klar och fick {{ correct }} av {{ total }}!</h2>
 
-<p><a href="{% url 'start_page' %}">
-    Till startsidan
-</a></p>
+	
+	<div class="completed">
+	<h1> 🌈 🎉 💕 🍾 😘</h1> 
+	{% if correct < 2 %}
+    <p>Du är Jonny!</p> <br> <img class="img-circle" src="/static/jonny.jpg"></div>
+	{% elif correct < 4 %}
+    <p>Du är Johannes!</p> <br> <img class="img-circle" src="/static/johannes.jpg"></div>
+	{% else %}
+    <p>Du är Martina! </p> <br> <img class="img-circle" src="/static/martina.jpg"></div>
+	{% endif %}
+
 
 </div>
 

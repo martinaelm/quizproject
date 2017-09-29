@@ -3,21 +3,9 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: SourceSansPro-Bold;
-	margin: 0px
-  font-size: 10vw;
+  font-size: 24px;
 }
 
-video {
-position:absolute;
-left:0;
-top:0;
-right:0;
-bottom:0;
-width:100%;
-height:100%;
-z-index:1; 
-margin:auto;
-}
 
 h1 {
   	text-align: center;
@@ -42,17 +30,33 @@ button {
       position: relative;
     }
 
+.backgroundimage {
+  margin-top: 0%;
+  background-size: cover;
+
+}
+
 .textstart {
-position:absolute;
-left:0;
-top:0;
-right:0;
-bottom:0;
-width:200px;
-height:50px;
-z-index:2; 
-margin:auto;
+text-align: center;
+background-image: url("teamgif.gif");
+background-position: center;
+background-size: cover;
+font-size:;
+margin-left: auto;
+margin-right: auto;
+
 	}
+
+.textstart h1 {
+  font-size: 90px;
+  top-margin: 25%;
+  letter-spacing: -1px;
+  font-family: SourceSansPro-Bold;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .quiz {
@@ -67,7 +71,7 @@ margin-bottom: 25px;
 }
 
 .quiz p {
-  font-size: 20;
+  font-size: 20px;
   font-family: SourceSansPro-Regular;
 }
 
@@ -84,16 +88,51 @@ margin-bottom: 25px;
 
   
   .question label {
-    font-size: 20;
+    font-size: 20pt;
     font-family: SourceSansPro-Regular;
   }
 
+
   input[type=radio]{
-    margin-right: 10px;
+      appearance:none;
+      margin:0 30px;
+      width: 14px;
+      height: 14px;
+      background: #00C2DB;
+      box-shadow:
+      inset 0 0 0 .4em #00C2DB,
+      0 0 0 .3em;
+      border-radius: 50%;
+      transition: .2s;
+      cursor:pointer;
+      color: #FFFFFF;
+
 }
 
+input[type=radio]:hover, {
+      background: #9B9B9B;
+}
+
+input[type=radio]:checked {
+      background: #00C2DB;
+      box-shadow:
+      inset 0 0 0 .12em white,
+      0 0 0 .3em;
+  }
+  
+input[type=radio]:checked {
+      background: #00C2DB;
+      box-shadow:
+      inset 0 0 0 .4em white,
+      0 0 0 .3em #272822;
+  } 
+
+input[type=radio]:focus { outline: 0; }
+
+
+
 .completed {
-  margin-top: 20%;
+  margin-top: 8%;
   text-align: center;
   font-size: 30px;
 }
@@ -104,4 +143,13 @@ margin-bottom: 25px;
 
 .completed h2 {
   font-family: SourceSansPro-Regular;
+}
+
+.img-circle {
+
+  max-width: 100px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
